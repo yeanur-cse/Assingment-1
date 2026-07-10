@@ -328,3 +328,27 @@ body{
 }
 /* Commit Wall end */
   /* ai end */
+
+  /* fotter srt */
+  .parent-footer{
+    background-color: #1f62c1;
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto 40px;
+  }
+  .fotter-t{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 40px 70px;
+  }
+  .social-link{
+    display: flex;
+    gap: 25px;
+  }
+  /* .fotter-b{
+    padding: 30px 30px;
+    text-align: center;
+  }
+   */
