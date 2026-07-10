@@ -216,3 +216,115 @@ body{
     cursor: pointer;
     transition: .3s;
 }
+/* Ai Section */
+/* Commit Wall srt */
+.parent-commit{
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.commit-eyebrow{
+    text-align: center;
+    color: rgb(71, 71, 224);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.parent-commit h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 12px;
+}
+.commit-subtitle{
+    text-align: center;
+    color: #7a7a7a;
+    margin: 0 auto 40px;
+    max-width: 500px;
+}
+
+.terminal{
+    background: #111827;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,.15);
+}
+.terminal-bar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 14px 20px;
+    background: #1a2233;
+    border-bottom: 1px solid #2a3347;
+}
+.dots{
+    display: flex;
+    gap: 8px;
+}
+.dot{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+}
+.dot.red{ background: #FF5F57; }
+.dot.yellow{ background: #FEBC2E; }
+.dot.green{ background: #28C840; }
+.terminal-title{
+    font-size: 13px;
+    color: rgb(171, 171, 248);
+}
+
+.terminal-body{
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.9;
+    padding: 26px 28px 34px;
+    color: white;
+}
+.terminal-prompt{
+    color: #28C840;
+    margin-bottom: 14px;
+}
+
+.commit-line{
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    opacity: 0;
+    animation: fadeIn .6s ease forwards;
+}
+.commit-line .hash{ color: #FEBC2E; }
+.commit-line .msg{ color: white; }
+.commit-line .author{ color: rgb(171, 171, 248); }
+.commit-line .tag{ color: #28C840; }
+
+
+.line-1{ animation-delay: .2s; }
+.line-2{ animation-delay: .8s; }
+.line-3{ animation-delay: 1.4s; }
+.line-4{ animation-delay: 2.0s; }
+.line-5{ animation-delay: 2.6s; }
+.line-6{ animation-delay: 3.2s; }
+
+@keyframes fadeIn{
+    from{ opacity: 0; transform: translateY(6px); }
+    to{ opacity: 1; transform: translateY(0); }
+}
+
+.commit-footer{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.commit-footer p{
+    color: #7a7a7a;
+    font-size: 14px;
+}
+/* Commit Wall end */
+  /* ai end */
