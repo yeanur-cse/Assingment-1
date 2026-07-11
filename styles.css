@@ -41,7 +41,7 @@ body{
 .parent-hero{
     text-align: center;
     margin-top: 40px;
-    background-image: url("/assets/banner.jpg");
+    background-image: url("./assets/banner.jpg");
     min-height: 640px;
     padding: 90px 40px 70px;
     object-fit: cover;
